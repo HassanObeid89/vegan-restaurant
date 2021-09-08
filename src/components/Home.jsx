@@ -9,7 +9,9 @@ export default function Home() {
         <i class="fas fa-leaf" />
         <p>Be a part of the Vegan Revolution!</p>
       </div>
-      <CategoryBox />
+      <CategoryBox category={'Dishes'} />
+      <CategoryBox category={'Desserts'} />
+      <CategoryBox category={'Drinks'} />
     </div>
   );
 }
