@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function ProductCard() {
-    return (
-        <div>
-            <p>Card</p>
-        </div>
-    )
+  return (
+    <div>
+      <p>Card</p>
+    </div>
+  );
 }
