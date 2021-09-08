@@ -1,6 +1,6 @@
 @import "./css/NavBar.css";
 @import "./css/Home.css";
-
+@import "./css/CategoryBox.css";
 * {
   margin: 0;
   padding: 0;
