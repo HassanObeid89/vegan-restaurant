@@ -1,9 +1,9 @@
-import React from 'react'
-import ProductCard from './ProductCard'
+import React from "react";
+import ProductCard from "./ProductCard";
 export default function CategoryPage() {
-    return (
-        <div>
-            <ProductCard/>
-        </div>
-    )
+  return (
+    <div>
+      <ProductCard />
+    </div>
+  );
 }

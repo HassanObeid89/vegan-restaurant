@@ -1,13 +1,15 @@
-import React from 'react'
-import CategoryBox from './CategoryBox'
-import hero from '../assets/hero.png'
+import React from "react";
+import CategoryBox from "./CategoryBox";
 
 export default function Home() {
-    return (
-        <div className='hero'>
-            <img src={hero} />
-            <p>home</p>
-            <CategoryBox />
-        </div>
-    )
+  return (
+    <div class="home">
+      <div className="hero">
+        <h3>Vegetal</h3>
+        <i class="fas fa-leaf" />
+        <p>Be a part of the Vegan Revolution!</p>
+      </div>
+      <CategoryBox />
+    </div>
+  );
 }
