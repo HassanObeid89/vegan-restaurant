@@ -1,6 +1,25 @@
-.App {
-  text-align: center;
+@import './css/NavBar.css';
+@import './css/Home.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: rgb(89, 169, 96);
+}
+
+/* .main {
+  background: radial-gradient(at center center, #2d7e 0%, #1c40617c 100% ),
+  url('./assets/hero.png');
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+} */
 
 /* .App-logo {
   height: 40vmin;
@@ -36,3 +55,4 @@
     transform: rotate(360deg);
   }
 } */
+
