@@ -1,24 +1,26 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="header">
       <div className="logo">
-        <i class="fas fa-leaf">Vegetal</i>
+        <Link to="/">
+          <i class="fas fa-leaf">Vegetal</i>
+        </Link>
       </div>
       <nav>
         <ul>
           <li>
-            <a>Dishes</a>
+            <Link to="/CategoryPage">Dishes</Link>
           </li>
           <li>
-            <a>Deserts</a>
+            <Link to="/CategoryPage">Deserts</Link>
           </li>
           <li>
-            <a>Drinks</a>
+            <Link to="/CategoryPage">Drinks</Link>
           </li>
           <li>
-            <a>Contact Us</a>
+            <Link to="/ContactUs">Contact Us</Link>
           </li>
         </ul>
       </nav>
