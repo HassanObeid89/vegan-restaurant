@@ -6,7 +6,7 @@ export const products = [
     id: 1,
     picture: tacos,
     hero: dishes_hero,
-    category: "Desserts",
+    category: "Dishes",
     title: "Avocado Tacos",
     shortDescription: "",
     longDescription: "",

@@ -10,11 +10,13 @@ export default function CategoryPage({ productList }) {
   );
   const card = dishes.map((dish) => <ProductCard key={dish.id} dish={dish} />);
   return (
-    <div>
-      <p></p>
-      <h1>{dishes[0].category}</h1>
-      <img src={dishes[0].hero} />
-      {card}
+    <div className="categoryPage">
+      <div className="top">
+        <img src={dishes[0].hero} />
+        <h1>{dishes[0].category}</h1>
+      </div>
+      <p>{dishes[0].shortDescription}</p>
+      <ul>{card}</ul>
     </div>
   );
 }
