@@ -11,13 +11,13 @@ export default function NavBar() {
       <nav>
         <ul>
           <li>
-            <Link to="/CategoryPage">Dishes</Link>
+            <Link to="/CategoryPage/Dishes">Dishes</Link>
           </li>
           <li>
-            <Link to="/CategoryPage">Deserts</Link>
+            <Link to="/CategoryPage/Desserts">Deserts</Link>
           </li>
           <li>
-            <Link to="/CategoryPage">Drinks</Link>
+            <Link to="/CategoryPage/Drinks">Drinks</Link>
           </li>
           <li>
             <Link to="/ContactUs">Contact Us</Link>
