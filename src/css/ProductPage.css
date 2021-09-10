@@ -1,21 +1,30 @@
-.product_wrapper .header img {
+.header_wrapper i {
+  color: black;
+  padding: 6px 6px;
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  background-color: #f0eeee;
+  border-radius: 8px;
+}
+
+.product_wrapper .header_wrapper img {
   width: 160px;
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 0;
   left: 30%;
   margin-bottom: 40px;
   filter: drop-shadow(0px 4px 37px rgba(198, 26, 26, 0.25));
 }
 
-.header {
-  height: 20vh;
+.header_wrapper {
+  height: 15vh;
 }
 
 .details {
   border-top-left-radius: 61px;
   border-top-right-radius: 61px;
-  height: 100vh;
   background-color: #ffffff;
 }
 
@@ -24,8 +33,7 @@
   padding-top: 100px;
   margin-bottom: 20px;
 }
-
-.ingradients h3 {
+.details h3 {
   padding: 20px 20px;
 }
 
@@ -52,4 +60,31 @@
 .card p {
   font-weight: 400;
   font-size: 12px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 0.9em;
+  min-width: 60px;
+  
+  margin:0 auto;
+}
+
+.content-table td {
+  padding: 8px 30px;
+
+}
+
+.content-table tr {
+  border-bottom: 1px solid gray;
+}
+
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table-container h3 {
+  margin-top: 16px;
 }
