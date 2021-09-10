@@ -1,0 +1,55 @@
+.contact-wrapper{
+    background-color: white;
+    border-top-left-radius: 61px;
+    border-top-right-radius: 61px;
+}
+
+.contact-wrapper .profile {
+    width: 80%;
+    margin: auto;
+    
+}
+.contact-wrapper .profile img {
+    object-fit: scale-down;
+    width: 300px;
+    height: 270px;
+    margin: 24px 0;
+    border-radius: 80%;
+}
+
+.contact {
+    margin: 16px 32px;
+}
+
+.contact h3 {
+    margin: 16px 0 16px 0;
+}
+.contact li {
+    margin: 8px;
+}
+
+.bookTable {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookTable input {
+    margin: 8px 0;
+    padding: 8px;
+}
+.bookTable button {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #503E9D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact img {
+    margin: 16px 0;
+    width: 100%;
+}
+
+
+
