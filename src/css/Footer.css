@@ -1,0 +1,33 @@
+.container {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+.footer-col li {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 4px 4px;
+}
+
+.footer {
+    padding: 24px 0;
+}
+
+h4 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform:capitalize;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-col i {
+    font-size: 30px;
+    margin: 4px 4px;
+    color: rgba(255, 255, 255, 0.8);
+}
