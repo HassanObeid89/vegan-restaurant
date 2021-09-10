@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 export default function CategoryPage({ productList }) {
   const params = useParams();
-
+  
   const dishes = productList.filter(
     (dishes) => dishes.category === params.category
   );
@@ -15,7 +15,7 @@ export default function CategoryPage({ productList }) {
         <img src={dishes[0].hero} />
         <h1>{dishes[0].category}</h1>
       </div>
-      <p>{dishes[0].shortDescription}</p>
+      {/* <p>{dishes[0].shortDescription}</p> */}
       <ul>{card}</ul>
     </div>
   );

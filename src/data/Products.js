@@ -1,4 +1,4 @@
-import tacos from "../assets/Dishes/Cheesy_avocado_tacos.jpg";
+import tacos from "../assets/Dishes/avocado_tacos.png";
 import dishes_hero from "../assets/Dishes/dishes_hero.png";
 
 export const products = [
@@ -10,7 +10,7 @@ export const products = [
     title: "Avocado Tacos",
     shortDescription: "",
     longDescription: "",
-    ingredients: [{ 1: "Avocados", 2: "Onions", 3: "Garlic", 4: "Corn" }],
+    ingredients: [{"emoji":"🥑", "name":"Avocado"}, {"emoji":"🍍", "name": "Onion"},{"emoji":"🧄", "name":  "Garlic"},{"emoji":"🌽", "name": "Corn"}],
     nutritionFacts: [
       {
         Protein: "5.3g",
