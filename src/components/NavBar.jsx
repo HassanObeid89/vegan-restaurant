@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <div className="header">
       <div className="logo">
         <Link to="/">
-          <i class="fas fa-leaf">Vegetal</i>
+          <i className="fas fa-leaf">Vegetal</i>
         </Link>
       </div>
       <nav>
