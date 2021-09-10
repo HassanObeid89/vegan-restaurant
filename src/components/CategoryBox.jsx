@@ -19,7 +19,7 @@ export default function CategoryBox({ category }) {
   return (
     <div className="categoryBox">
       <div className="left">
-        <img src={getBackgroundImage()} />
+        <img src={getBackgroundImage()} alt="" />
       </div>
       <div className="right">
         <h2>{category}</h2>

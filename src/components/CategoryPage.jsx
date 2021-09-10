@@ -12,7 +12,7 @@ export default function CategoryPage({ productList }) {
   return (
     <div className="categoryPage">
       <div className="top">
-        <img src={dishes[0].hero} />
+        <img src={dishes[0].hero} alt='' />
         <h1>{dishes[0].category}</h1>
       </div>
       {/* <p>{dishes[0].shortDescription}</p> */}

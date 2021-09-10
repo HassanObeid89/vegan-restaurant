@@ -6,7 +6,7 @@ export default function ProductCard({ dish }) {
     <Link to={`/product/${dish.id}`} >
     <div className="productCard">
       <div className="left">
-        <img src={dish.picture} />
+        <img src={dish.picture} alt='' />
       </div>
       <div className="right">
         <h3>{dish.title}</h3>
