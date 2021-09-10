@@ -4,7 +4,6 @@
 }
 
 .productCard {
-  position: relative;
   padding: 8px 8px;
   margin: 16px 16px;
   display: flex;
@@ -22,4 +21,14 @@
 
 .productCard .right p {
   margin-top: 12px;
+}
+@media screen and (min-width: 550px){
+  .productCard{
+    width:60%;
+    margin: 32px auto;
+  }
+  .productCard img {
+    width: 222px;
+    height: 193px;
+  }
 }

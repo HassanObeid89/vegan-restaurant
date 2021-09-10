@@ -87,3 +87,33 @@
 .table-container h3 {
   margin-top: 16px;
 }
+
+@media screen and (min-width: 550px){
+  .product_wrapper .header_wrapper img {
+    top: 2%;
+    left: 44%;
+  }
+  .details h3 {
+    padding: 20px 20px;
+    margin-left: 30%;
+  }
+  
+  .card {
+    max-width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .content-table {
+    border-collapse: collapse;
+    max-width: 80%;
+    font-size: 0.9em;
+    min-width: 60px;
+    margin:0 auto;
+  }
+  .table-container {
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 24px;
+  }
+}

@@ -27,3 +27,20 @@
   object-fit: cover;
 }
 
+@media screen and (min-width: 550px){
+  .top img {
+    position: absolute;
+    width: 375px;
+    height: 330px;
+    left: 74%;
+    top: 70px;
+    object-fit: cover;
+  }
+  .top h1 {
+    position: absolute;
+    width: 155px;
+    height: 53px;
+    left: 48%;
+    top: 320px;
+  }
+}

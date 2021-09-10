@@ -16,16 +16,36 @@ export default function CategoryBox({ category }) {
         return null;
     }
   };
+
   return (
-    <div className="categoryBox">
-      <div className="left">
-        <img src={getBackgroundImage()} alt="" />
-      </div>
-      <div className="right">
-        <h2>{category}</h2>
-        <p>fgcv dscquwb wxbwxblbx wxbwbwxlj xwbxjabx.</p>
-        <button>View menu</button>
-      </div>
+    <div>
+      {category !== "Desserts" ? (
+        <div className="categoryBox">
+          <div className="left">
+            <img src={getBackgroundImage()} alt="" />
+          </div>
+          <div className="right">
+            <h2>{category}</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p>View more </p>
+          </div>
+        </div>
+      ) : (
+        <div className="categoryBox">
+          <div className="right">
+            <h2>{category}</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </p>
+            <p>View more </p>
+          </div>
+          <div className="left">
+            <img src={getBackgroundImage()} alt="" />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
