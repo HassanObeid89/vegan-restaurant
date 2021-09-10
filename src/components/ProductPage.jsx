@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { products } from "../data/Products";
-import Ingradients from "./Ingradients";
-import NutritionFacts from "./NutritionFacts";
+import Ingradients from "./sections/Ingradients";
+import NutritionFacts from "./sections/NutritionFacts";
 
 export default function ProductPage({ setToggle }) {
   const params = useParams();

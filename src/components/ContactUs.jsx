@@ -1,5 +1,5 @@
 import React from "react";
-import BookTable from "./BookTable";
+import BookTable from "./sections/BookTable";
 import profile from "../assets/profile.jpg";
 import map from '../assets/map.png'
 export default function ContactUs() {

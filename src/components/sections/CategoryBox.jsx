@@ -1,7 +1,7 @@
 import React from "react";
-import Dishes from "../assets/Dishes_box.jpg";
-import Desserts from "../assets/Desserts.jpg";
-import Drinks from "../assets/Drinks.jpg";
+import Dishes from "../../assets/Dishes_box.jpg";
+import Desserts from "../../assets/Desserts.jpg";
+import Drinks from "../../assets/Drinks.jpg";
 
 export default function CategoryBox({ category }) {
   const getBackgroundImage = () => {

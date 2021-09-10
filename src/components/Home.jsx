@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CategoryBox from "./CategoryBox";
+import CategoryBox from "./sections/CategoryBox";
 
 export default function Home() {
   return (
