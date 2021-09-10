@@ -54,4 +54,20 @@
   text-shadow: 2px 2px 90px green, -2px -2px 2px #503e9d;
 }
 
+@media screen and (min-width: 550px){
+  .hero i {
+    top: 120px;
+    left: 56%;
+    font-size: 42px;
+  }
+  .hero p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero{
+    height: 86vh;
+  }
+}
 

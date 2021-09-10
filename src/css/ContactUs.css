@@ -50,6 +50,15 @@
     margin: 16px 0;
     width: 100%;
 }
-
+@media screen and (min-width: 550px){
+    .contact-wrapper .profile {
+        width: 20%;
+        margin: auto; 
+    }
+    .contact {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
 
 
