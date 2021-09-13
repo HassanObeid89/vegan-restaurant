@@ -13,6 +13,8 @@ export default function ProductPage({ setToggle }) {
     location.goBack();
   }
 
+  // Having a useEffect in a page for non fetching purposes is a sign of some sort of code error.
+  // In this case a UX problem that reflects on weird coding choices -1
   useEffect(() => {
     setToggle(true);
   }, []);
@@ -36,6 +38,7 @@ export default function ProductPage({ setToggle }) {
       <div className="details">
         <h2>{product[0].title}</h2>
         <section className="ingradients">
+          {/* typos */}
           <h3>Ingradients</h3>
           <ul>{ingradients}</ul>
         </section>

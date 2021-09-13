@@ -10,6 +10,9 @@ export default function Home() {
         <i className="fas fa-leaf" />
         <p>Be a part of the Vegan Revolution!</p>
       </div>
+      {/* For the routes */}
+      {/* use category-pages lowercase with dash */}
+      {/* instead of UpperCase, thats not the URL convention */}
       <Link to={`/CategoryPage/Dishes`}>
         <CategoryBox category={"Dishes"} />
       </Link>

@@ -10,19 +10,26 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 export default function App() {
+  // this variable does not do anything. -1
   const productList = products.map((products) => products);
   const [navToggle, setToggle] = useState(false);
-  
+
   return (
     <div className="App">
       <Router>
-        {navToggle === true ? null : <NavBar />}
+        {/* You don't need the === true. navToggle withouth anything do the same */}
+        {/* You can use the && for a IF that does not have an ELSE */}
+        {/* Is better to have something in the IF  */}
+
+        {/* Only the "/" route needs the exact keyword */}
+        {!navToggle && <NavBar />}
         <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
           <Route path="/CategoryPage/:category" exact>
-            <CategoryPage key={productList.id} productList={productList} />
+            {/* Why there is a key here, if you did not create multiple copies of CategoryPage. -1 */}
+            <CategoryPage productList={productList} />
           </Route>
           <Route path="/product/:id" exact>
             <ProductPage setToggle={setToggle} />

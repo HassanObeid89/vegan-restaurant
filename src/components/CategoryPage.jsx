@@ -4,17 +4,19 @@ import ProductCard from "./ProductCard";
 
 export default function CategoryPage({ productList }) {
   const params = useParams();
-  
+
   const dishes = productList.filter(
     (dishes) => dishes.category === params.category
   );
+
   const card = dishes.map((dish) => <ProductCard key={dish.id} dish={dish} />);
   return (
     <div className="categoryPage">
       <div className="top">
-        <img src={dishes[0].hero} alt='' />
+        <img src={dishes[0].hero} alt="" />
         <h1>{dishes[0].category}</h1>
       </div>
+      {/* No commented code in production -1 */}
       {/* <p>{dishes[0].shortDescription}</p> */}
       <ul>{card}</ul>
     </div>
