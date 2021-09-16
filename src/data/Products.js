@@ -9,10 +9,9 @@ export const products = [
   {
     id: 1,
     picture: Vegan_veggie,
-    hero: dishes_hero,
     category: "Dishes",
     title: "Avocado Tacos",
-    shortDescription: "",
+    shortDescription: "cvuiy ghuohu uihpiohg ug huoiiou iu iy fgiug ohioh gyiug gugui go cvuiy ghuohu uihpiohg ug huoiiou iu iy fgiug ohioh gyiug gugui go",
     longDescription: "",
     ingredients: [{"emoji":"🥑", "name":"Avocado"}, ,{"emoji":"🧄", "name":  "Garlic"},{"emoji":"🌽", "name": "Corn"}],
     nutritionFacts: [
@@ -37,7 +36,6 @@ export const products = [
   {
     id: 2,
     picture: Vegan_Sandwich,
-    hero: dishes_hero,
     category: "Dishes",
     title: "Vegan Sandwich",
     shortDescription: "",
@@ -65,7 +63,7 @@ export const products = [
   {
     id: 3,
     picture: tacos,
-    hero: dishes_hero,
+   
     category: "Dishes",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -93,7 +91,7 @@ export const products = [
   {
     id: 4,
     picture: tacos,
-    hero: dishes_hero,
+   
     category: "Dishes",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -121,7 +119,7 @@ export const products = [
   {
     id: 5,
     picture: tacos,
-    hero: desserts_hero,
+    
     category: "Desserts",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -149,7 +147,7 @@ export const products = [
   {
     id: 6,
     picture: tacos,
-    hero: desserts_hero,
+    
     category: "Desserts",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -177,7 +175,7 @@ export const products = [
   {
     id: 7,
     picture: tacos,
-    hero: desserts_hero,
+    
     category: "Desserts",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -205,7 +203,7 @@ export const products = [
   {
     id: 8,
     picture: tacos,
-    hero: desserts_hero,
+    
     category: "Desserts",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -233,7 +231,7 @@ export const products = [
   {
     id: 9,
     picture: Avo_shake,
-    hero: drinks_hero,
+    
     category: "Drinks",
     title: "Avo shake",
     shortDescription: "",
@@ -261,7 +259,7 @@ export const products = [
   {
     id: 10,
     picture: tacos,
-    hero: drinks_hero,
+    
     category: "Drinks",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -289,7 +287,7 @@ export const products = [
   {
     id: 11,
     picture: tacos,
-    hero: drinks_hero,
+    
     category: "Drinks",
     title: "Avocado Tacos",
     shortDescription: "",
@@ -317,7 +315,7 @@ export const products = [
   {
     id: 12,
     picture: tacos,
-    hero: drinks_hero,
+    
     category: "Drinks",
     title: "Avocado Tacos",
     shortDescription: "",
