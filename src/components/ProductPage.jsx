@@ -1,7 +1,8 @@
 import { useHistory, useParams } from "react-router-dom";
-import { products } from "../data/Products";
+// import { products } from "../data/Products";
 import Ingradients from "./sections/Ingradients";
 import NutritionFacts from "./sections/NutritionFacts";
+import Products from "../data/Products.json";
 
 export default function ProductPage() {
   const params = useParams();
@@ -11,31 +12,23 @@ export default function ProductPage() {
     location.goBack();
   }
 
-  const product = products.filter(
-    (dishes) => dishes.id === parseInt(params.id)
-  );
-  const nutritionFacts = product.map((product) => (
-    <NutritionFacts data={product.nutritionFacts} />
+  const product = Products.filter((item) => item.id === parseInt(params.id));
+
+  const image = require("../assets/images/" + product[0].imageFile).default;
+  const nutritionFacts = product.map((item) => (
+    <NutritionFacts data={item.nutritionFacts} />
   ));
-  const ingradients = product.map((product) => (
-    <Ingradients data={product.ingredients} />
+  const ingradients = product.map((item) => (
+    <Ingradients data={item.ingredients} />
   ));
 
   return (
     <div id="productPage">
       <section className="header_wrapper">
-        <img src={product[0].picture} alt="" />
+        <img src={image} alt="" />
         <div className="sub-wrapper">
           <h2>{product[0].title}</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p>{product[0].longDescription}</p>
         </div>
       </section>
       <section className="ingradients">
