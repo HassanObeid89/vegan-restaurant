@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function NutritionFacts({ data }) {
   const nutrition = data.map((nutrition) => (
     <tr>
