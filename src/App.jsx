@@ -17,7 +17,7 @@ export default function App() {
             <Home />
           </Route>
           <Route scrollToTop path="/CategoryPage/:category">
-            <CategoryPage  />
+            <CategoryPage />
           </Route>
           <Route path="/product/:id">
             <ProductPage />

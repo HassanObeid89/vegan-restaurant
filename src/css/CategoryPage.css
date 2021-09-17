@@ -1,6 +1,5 @@
 .categoryPage {
   background-color: #ffffff;
-
 }
 
 .Drinks,
@@ -12,15 +11,30 @@
 }
 
 .categoryHeader.Dishes {
-  background: url("../assets/Dishes/dishes_hero.jpg") center center / 100%;
+  background: radial-gradient(
+      at center center,
+      rgba(46, 191, 17, 0.5) 0.5%,
+      #3a37377c 100%
+    ),
+    url("../assets/Dishes/dishes_hero.jpg") center center / 100%;
 }
 
 .categoryHeader.Desserts {
-  background: url("../assets/Desserts/desserts_hero.jpg") center center / 100%;
+  background: radial-gradient(
+      at center center,
+      rgba(46, 191, 17, 0.5) 0.5%,
+      #3a37377c 100%
+    ),
+    url("../assets/Desserts/desserts_hero.jpg") center center / 100%;
 }
 
 .categoryHeader.Drinks {
-  background: url("../assets/newdrinks/drinks2_huge.jpg") center center/ 100%;
+  background: radial-gradient(
+      at center center,
+      rgba(46, 191, 17, 0.5) 0.5%,
+      #3a37377c 100%
+    ),
+    url("../assets/newdrinks/drinks2_huge.jpg") center center/ 100%;
 }
 
 .categoryPage h1 {
@@ -28,18 +42,19 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 90px green, -2px -2px 2px #503e9d;
 }
 
 .categoryPage span {
   margin: 36px auto;
-  background: #f0eeee;
   list-style: none;
   padding: 8px 8px;
   width: 80%;
   display: block;
   text-align: left;
   line-height: 21px;
+  box-shadow: 9px 9px 11px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 550px) {
@@ -51,16 +66,13 @@
   .Desserts {
     height: 450px;
     background-position: center;
-
+    margin-top: 4px;
   }
   .categoryPage h1 {
     top: 50%;
     font-size: 64px;
   }
   .categoryPage span {
-    
     max-width: 40%;
-    
   }
-
 }

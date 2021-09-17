@@ -6,8 +6,6 @@ export default function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h3>Vegetal</h3>
-        <i className="fas fa-leaf" />
         <p>Be a part of the Vegan Revolution!</p>
       </div>
       <section className="boxes">{boxes}</section>

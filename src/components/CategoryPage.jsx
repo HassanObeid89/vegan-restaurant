@@ -1,7 +1,6 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import ProductCard from "./ProductCard";
-import {products} from '../data/Products'
+import { products } from "../data/Products";
 
 export default function CategoryPage() {
   const params = useParams();
