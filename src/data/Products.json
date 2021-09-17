@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1,
+    "imageFile": "Vegan_Sandwich.jpg",
+    "category": "Dishes",
+    "title": "Vegan Sandwich",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "ingredients": [
+      { "emoji": "🥑", "name": "Avocado" },
+      { "emoji": "🧄", "name": "Garlic" },
+      { "emoji": "🌽", "name": "Corn" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 2,
+    "imageFile": "vegan-salad.jpg",
+    "category": "Dishes",
+    "title": "Vegan Salad",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "ingredients": [
+      { "emoji": "🥑", "name": "Avocado" },
+      { "emoji": "🧄", "name": "Garlic" },
+      { "emoji": "🌽", "name": "Corn" },
+      {"emoji":"🍉","name":"Water mellon"}
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 3,
+    "imageFile": "vegan-mix.jpg",
+    "category": "Dishes",
+    "title": "Vegan Mix",
+    "shortDescription": "Bread toasts with avocado, banana, tomato. great for a quick breakfast.",
+    "longDescription": "Bread toasts with avocado, banana, tomato. great for a quick breakfast. Bread toasts with avocado, banana, tomato. great for a quick breakfast. Bread toasts with avocado, banana, tomato. great for a quick breakfast.",
+    "ingredients": [
+      { "emoji": "🥑", "name": "Avocado" },
+      { "emoji": "🍅", "name": "Tomato" },
+      { "emoji": "🍌", "name": "Banana" },
+      {"emoji":"🍞","name":"Bread"}
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 4,
+    "imageFile": "vegan-pizza.jpg",
+    "category": "Dishes",
+    "title": "Vegan pizza",
+    "shortDescription": "Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one",
+    "longDescription": "Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one",
+    "ingredients": [
+      { "emoji": "🥑", "name": "Avocado" },
+      { "emoji": "🍅", "name": "Tomato" },
+      {"emoji":"🍞","name":"Bread"}
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 5,
+    "imageFile": "vegan-ice-cream.jpg",
+    "category": "Desserts",
+    "title": "Vegan ice cream",
+    "shortDescription": "Ever wondered what a vegan ice cream looked liked? We’ll feast on your eyes on this one",
+    "longDescription": "Ever wondered what a vegan ice cream looked liked? We’ll feast on your eyes on this one Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one Ever wondered what a vegan pizza looked liked? We’ll feast on your eyes on this one",
+    "ingredients": [
+      { "emoji": "🥑", "name": "Avocado" },
+      { "emoji": "🥛", "name": "Ote Milk" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 6,
+    "imageFile": "vegan-pancake.jpg",
+    "category": "Desserts",
+    "title": "Vegan pancake",
+    "shortDescription": "Vegan Chocolate Pancake with Ice Cream, Bananas, Berries, and Cream, Ain Soph Soar, Higashi-Ikebukuro, Toshima City, Tokyo, Japan.",
+    "longDescription": "Vegan Chocolate Pancake with Ice Cream, Bananas, Berries, and Cream, Ain Soph Soar, Higashi-Ikebukuro, Toshima City, Tokyo, Japan.Vegan Chocolate Pancake with Ice Cream, Bananas, Berries, and Cream, Ain Soph Soar, Higashi-Ikebukuro, Toshima City, Tokyo, Japan.",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" },
+      { "emoji": "🍫", "name": "Chocolate" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 7,
+    "imageFile": "RAW-vegan-desert.jpg",
+    "category": "Desserts",
+    "title": "Raw vegan desert",
+    "shortDescription": "Easy, healthy raw vegan twix bars with an almond flour base, date caramel center, and dark chocolate topping.",
+    "longDescription": "Easy, healthy raw vegan twix bars with an almond flour base, date caramel center, and dark chocolate topping. Gluten-free, vegan, and refined sugar-free. Easy, healthy raw vegan twix bars with an almond flour base, date caramel center, and dark chocolate topping. Gluten-free, vegan, and refined sugar-free.",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" },
+      { "emoji": "🍫", "name": "Chocolate" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 8,
+    "imageFile": "Vegan-Chocolate-Cheesecake.jpg",
+    "category": "Desserts",
+    "title": "Vegan Chocolate Cheesecake",
+    "shortDescription": "The most creamy, luscious, velvety smooth, this is the Best Vegan Chocolate Cheesecake that is dairy-free, vegan and gluten-free!",
+    "longDescription": "The most creamy, luscious, velvety smooth, this is the Best Vegan Chocolate Cheesecake that is dairy-free, vegan and gluten-free! The most creamy, luscious, velvety smooth, this is the Best Vegan Chocolate Cheesecake that is dairy-free, vegan and gluten-free!",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" },
+      { "emoji": "🍫", "name": "Chocolate" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 9,
+    "imageFile": "drink1.jpg",
+    "category": "Drinks",
+    "title": "Vegan smoothie",
+    "shortDescription": "Too much fruit in the fridge meant it was time to make a smoothie.",
+    "longDescription": "Too much fruit in the fridge meant it was time to make a smoothie. In went everything. And I mean, everything: kale, arugula, berries, oranges, mint, ginger, chia seeds, honey. Blend. Serve. So happy.",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" },
+      { "emoji": "🍫", "name": "Chocolate" }
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 10,
+    "imageFile": "straw-drink.jpg",
+    "category": "Drinks",
+    "title": "Straw drink",
+    "shortDescription": "Don't you just wish you could poke a straw through your screen and take a little sip!",
+    "longDescription": "This strawberry mojito cocktail recipe is perfect when you have sweet seasonal strawberries. When it’s hot outside, this strawberry mojito recipe is also perfect. It’s refreshing, perfectly sweet, fruity and fragrant of the season.",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" }
+      
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 11,
+    "imageFile": "Matcha-Lattes.jpg",
+    "category": "Drinks",
+    "title": "Matcha Lattes",
+    "shortDescription": "Wake up in the morning with a rejuvenating, nutritious matcha latte. This fast and easy recipe compliments and offsets the fragrant.",
+    "longDescription": "Wake up in the morning with a rejuvenating, nutritious matcha latte. This fast and easy recipe compliments and offsets the fragrant, leafy taste of matcha green tea powder with creamy milk and a little sugar for a flavour balance that will leave you feeling ready and raring to go",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" }
+      
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  },
+  {
+    "id": 12,
+    "imageFile": "rosewater-parfaits.jpg",
+    "category": "Drinks",
+    "title": "Rosewater parfaits",
+    "shortDescription": "Wake up in the morning with a rejuvenating, nutritious matcha latte. This fast and easy recipe compliments and offsets the fragrant.",
+    "longDescription": "Wake up in the morning with a rejuvenating, nutritious matcha latte. This fast and easy recipe compliments and offsets the fragrant, leafy taste of matcha green tea powder with creamy milk and a little sugar for a flavour balance that will leave you feeling ready and raring to go",
+    "ingredients": [
+      { "emoji": "🥛", "name": "Ote Milk" },
+      { "emoji": "🍓", "name": "Strawberry" },
+      { "emoji": "🍌", "name": "Banana" }
+      
+    ],
+    "nutritionFacts": [
+      { "name": "Protein", "value": "5.3g" },
+      { "name": "Carbohydrates", "value": "32.8g" },
+      { "name": "DietaryFiber", "value": "10.4g" },
+      { "name": "Sugars", "value": "1.5g" },
+      { "name": "Fat", "value": "16.3g" },
+      { "name": "SaturatedFat", "value": "2.4g" },
+      { "name": "Folate", "value": "91.1mcg" },
+      { "name": "Calcium", "value": "62.2mg" },
+      { "name": "Iron", "value": "1.4mg" },
+      { "name": "Magnesium", "value": "69.8mg" },
+      { "name": "Potassium", "value": "643.3mg" },
+      { "name": "Sodium", "value": "110.5mg" },
+      { "name": "Thiamin", "value": "0.2mg" },
+      { "name": "CaloriesFromFat", "value": "146.4" }
+    ]
+  }
+]

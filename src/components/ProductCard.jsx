@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 
-export default function ProductCard({ dish }) {
+export default function ProductCard({ item }) {
+  const image = require("../assets/images/" + item.imageFile).default;
   return (
-    <Link to={`/product/${dish.id}`}>
+    <Link to={`/product/${item.id}`}>
       <div className="productCard">
         <div className="left">
-          <img src={dish.picture} alt="" />
+          <img src={image} alt="" />
         </div>
         <div className="right">
-          <h3>{dish.title}</h3>
-          <p>{dish.shortDescription}</p>
+          <h3>{item.title}</h3>
+          <p>{item.shortDescription}</p>
         </div>
       </div>
     </Link>
