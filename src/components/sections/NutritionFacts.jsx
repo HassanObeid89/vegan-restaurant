@@ -5,6 +5,5 @@ export default function NutritionFacts({ data }) {
       <td>{nutrition.value}</td>
     </tr>
   ));
-
   return <div>{nutrition}</div>;
 }

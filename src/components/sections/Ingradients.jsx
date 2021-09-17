@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Ingradients({ data }) {
   const ingradient = data.map((ingradient) => (
     <li>

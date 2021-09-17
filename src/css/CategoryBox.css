@@ -10,14 +10,14 @@
   margin-bottom: 16px;
 }
 button {
-  background-color: olivedrab;
+  background-color: rgba(101, 139, 102, 255);
   border: none;
   padding: 8px 8px;
   width: 120px;
   border-radius: 8px;
   text-align: center;
   font-size: 16px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   cursor: pointer;
 }

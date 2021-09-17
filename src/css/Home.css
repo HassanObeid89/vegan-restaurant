@@ -1,73 +1,43 @@
 .home {
-  background: #ffffff;
-  border-top-left-radius: 55px;
-  border-top-right-radius: 55px;
   width: 100%;
-  padding-bottom: 12px;
 }
 .hero {
   height: 557px;
-  border-top-left-radius: 55px;
-  border-top-right-radius: 55px;
-  margin-left: 1px;
   width: 100%;
+
   background: radial-gradient(
-      at top right,
-      rgb(245, 245, 245) 0%,
+      at center center,
+      rgba(46, 191, 17, 0.5) 0.5%,
       #3a37377c 100%
     ),
-    url("../assets/hero.png");
-  background-size: center;
-  background-position-x: left;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-}
-
-.hero h3 {
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 2px;
-  padding: 24px 24px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 90px green, -2px -2px 2px #503e9d;
-}
-
-.hero i {
-  position: absolute;
-  top: 135px;
-  right: 60px;
-  font-size: 32px;
-  color: green;
+    url("../assets/hero_huge.jpg") center center / 100%;
 }
 
 .hero p {
   position: absolute;
   top: 60%;
-  transform: translateY(-50%);
-  margin: 0 24px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
   line-height: 41px;
   font-weight: bolder;
   font-size: 30px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
   text-shadow: 2px 2px 90px green, -2px -2px 2px #503e9d;
 }
 
-@media screen and (min-width: 550px){
-  .hero i {
-    top: 120px;
-    left: 56%;
-    font-size: 42px;
-  }
+@media screen and (min-width: 960px) {
   .hero p {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
   }
-  .hero{
+  .hero {
     height: 86vh;
   }
+  .hero p {
+    font-size: 56px;
+  }
 }
-
