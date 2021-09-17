@@ -9,7 +9,7 @@
 .categoryBox .right p {
   margin-bottom: 16px;
 }
-.categoryBox .right button {
+button {
   background-color: olivedrab;
   border: none;
   padding: 8px 8px;

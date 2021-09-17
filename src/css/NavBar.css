@@ -4,7 +4,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: 9px 9px 10px 6px rgba(0, 0, 0, 0.6);
+  filter: drop-shadow(4px 20px 20px rgba(36, 101, 8, 0.25));
+  /* box-shadow: 9px 9px 10px 6px rgba(0, 0, 0, 0.6); */
   margin-bottom: 4px;
 }
 

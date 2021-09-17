@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { products } from "../data/Products";
 import Ingradients from "./sections/Ingradients";
@@ -23,22 +22,33 @@ export default function ProductPage() {
   ));
 
   return (
-    <div className="product_wrapper">
+    <div id="productPage">
       <section className="header_wrapper">
-        <i onClick={goBackHandle} className="fas fa-arrow-left" />
         <img src={product[0].picture} alt="" />
+        <div className="sub-wrapper">
+          <h2>{product[0].title}</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </section>
-      <div className="details">
-        <h2>{product[0].title}</h2>
-        <section className="ingradients">
-          <h3>Ingradients</h3>
-          <ul>{ingradients}</ul>
-        </section>
-        <section className="table-container">
-          <h3>Nutrition facts</h3>
-          <table className="content-table">{nutritionFacts}</table>
-        </section>
-      </div>
+      <section className="ingradients">
+        <h2>Ingradients</h2>
+        <ul>{ingradients}</ul>
+      </section>
+      <section className="table-container">
+        <h2>Nutrition facts</h2>
+        <table className="content-table">{nutritionFacts}</table>
+      </section>
+      <button className="button" onClick={goBackHandle}>
+        Go back
+      </button>
     </div>
   );
 }
