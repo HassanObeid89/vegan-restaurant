@@ -10,7 +10,7 @@ export default function ProductCard({ dish }) {
       </div>
       <div className="right">
         <h3>{dish.title}</h3>
-        <p>ftuygbukjgvjhgbk</p>
+        <p>{dish.shortDescription}</p>
       </div>
     </div>
     </Link>

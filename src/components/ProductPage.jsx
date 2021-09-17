@@ -4,18 +4,13 @@ import { products } from "../data/Products";
 import Ingradients from "./sections/Ingradients";
 import NutritionFacts from "./sections/NutritionFacts";
 
-export default function ProductPage({ setToggle }) {
+export default function ProductPage() {
   const params = useParams();
   const location = useHistory();
 
   function goBackHandle() {
-    setToggle(false);
     location.goBack();
   }
-
-  useEffect(() => {
-    setToggle(true);
-  }, []);
 
   const product = products.filter(
     (dishes) => dishes.id === parseInt(params.id)

@@ -11,8 +11,8 @@ export const products = [
     picture: Vegan_veggie,
     category: "Dishes",
     title: "Avocado Tacos",
-    shortDescription: "cvuiy ghuohu uihpiohg ug huoiiou iu iy fgiug ohioh gyiug gugui go cvuiy ghuohu uihpiohg ug huoiiou iu iy fgiug ohioh gyiug gugui go",
-    longDescription: "",
+    shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ingredients: [{"emoji":"🥑", "name":"Avocado"}, ,{"emoji":"🧄", "name":  "Garlic"},{"emoji":"🌽", "name": "Corn"}],
     nutritionFacts: [
 
