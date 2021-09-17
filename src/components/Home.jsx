@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import CategoryBox from "./sections/CategoryBox";
+import CategoryBox from "./CategoryBox";
+import data from "../data/Category.json";
 
 export default function Home() {
+  const boxes = data.map((item) => <CategoryBox key={item.id} item={item} />);
   return (
     <div className="home">
       <div className="hero">
@@ -10,15 +10,7 @@ export default function Home() {
         <i className="fas fa-leaf" />
         <p>Be a part of the Vegan Revolution!</p>
       </div>
-      <Link to={`/CategoryPage/Dishes`}>
-        <CategoryBox category={"Dishes"} />
-      </Link>
-      <Link to={`/CategoryPage/Desserts`}>
-        <CategoryBox category={"Desserts"} />
-      </Link>
-      <Link to={`/CategoryPage/Drinks`}>
-        <CategoryBox category={"Drinks"} />
-      </Link>
+      <section className="boxes">{boxes}</section>
     </div>
   );
 }
